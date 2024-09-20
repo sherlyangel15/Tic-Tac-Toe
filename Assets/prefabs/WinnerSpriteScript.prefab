@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8386317118743894992
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4251082155020126626}
+  - component: {fileID: 399376225681791669}
+  m_Layer: 0
+  m_Name: WinnerSpriteScript
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4251082155020126626
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8386317118743894992}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 157.99829, y: 307.79733, z: -3.386454}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &399376225681791669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8386317118743894992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 363be9ed06e926f40bc57ec54eb49ead, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  getWinner: {fileID: 0}
+  backGround: {fileID: 0}
+  Player1Wins: {fileID: 21300000, guid: 0ece640b009ca56479162e13abf4e8c0, type: 3}
+  Player2Wins: {fileID: 21300000, guid: 1fec0cf18d6693447a9d4bcdc0470567, type: 3}
+  Draw: {fileID: 21300000, guid: 32880616d07636c4f91ed3e4fb36dede, type: 3}
+  Default: {fileID: 21300000, guid: 3f6ab14a8a6265144b7dd7a7647646dc, type: 3}
+  WinnerNo: 0
